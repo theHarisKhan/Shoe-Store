@@ -41,11 +41,11 @@ a {
 .content {
   background-color: #000000;
   color: white;
-  height: 91vh;
+  height: 100vh;
 }
 
 .Home > .banner {
-  padding: 10rem 0;
+  padding: 5rem 0;
 }
 
 .banner--title {
@@ -110,4 +110,13 @@ a {
 
 .CheckIn {
   padding: 5rem 0;
+}
+
+@media (max-width: 680px) {
+  .content {
+    height: auto;
+  }
+  .Home {
+    height: 100vh;
+  }
 }
